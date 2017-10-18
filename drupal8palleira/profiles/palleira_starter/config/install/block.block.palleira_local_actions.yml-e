@@ -1,0 +1,20 @@
+uuid: 21b96168-be2b-4509-a8de-ff830bc3a3d7
+langcode: es
+status: true
+dependencies:
+  theme:
+    - palleira
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: palleira_local_actions
+theme: palleira
+region: header
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

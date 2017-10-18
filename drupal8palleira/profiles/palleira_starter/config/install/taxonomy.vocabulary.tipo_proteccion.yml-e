@@ -1,0 +1,9 @@
+uuid: 10019a90-efad-4b2b-b3af-a126dfee6367
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo de protección'
+vid: tipo_proteccion
+description: ''
+hierarchy: 0
+weight: 0

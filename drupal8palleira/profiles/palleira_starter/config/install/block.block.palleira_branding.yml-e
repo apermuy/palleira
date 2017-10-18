@@ -1,0 +1,25 @@
+uuid: 07384152-45cf-48c9-a707-c7dcb384741c
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - palleira
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: palleira_branding
+theme: palleira
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: b9b97444-5514-412f-bfe6-c2da08220c43
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localizacion
+    - node.type.elemento
+id: node.elemento.field_localizacion
+field_name: field_localizacion
+entity_type: node
+bundle: elemento
+label: Localización
+description: 'Breve descripción da localización do recurso. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

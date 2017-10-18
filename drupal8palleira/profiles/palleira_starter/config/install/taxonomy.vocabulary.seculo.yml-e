@@ -1,0 +1,9 @@
+uuid: cf9d0c68-9936-457f-97f8-605d4ab13c5b
+langcode: es
+status: true
+dependencies: {  }
+name: Século
+vid: seculo
+description: 'Número romano que indica o século de construcción do elemento'
+hierarchy: 0
+weight: 0

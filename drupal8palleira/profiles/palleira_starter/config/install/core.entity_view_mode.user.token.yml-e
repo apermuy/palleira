@@ -1,0 +1,10 @@
+uuid: cdc35a23-1cb4-4a11-8d73-f5bb512d2fa0
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+targetEntityType: user
+cache: true

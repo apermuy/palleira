@@ -1,0 +1,17 @@
+uuid: 9e564568-be3d-4670-b28b-811fbfc07c43
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Elemento
+type: elemento
+description: 'Elementos do catálogo Palleira.gal'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,9 @@
+uuid: 2de19299-029e-4d61-a06f-2ecb928b0e7c
+langcode: es
+status: true
+dependencies: {  }
+name: Propiedade
+vid: propiedade
+description: ''
+hierarchy: 0
+weight: 0

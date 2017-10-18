@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: Accesibilidade
+vid: accesibilidade
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo elemento'
+vid: tipo_elemento
+description: 'Define o tipo de elemento do que se trata'
+hierarchy: 0
+weight: 0

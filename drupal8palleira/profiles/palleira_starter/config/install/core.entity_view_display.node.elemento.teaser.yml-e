@@ -1,0 +1,47 @@
+uuid: 6c0273d6-f37b-4b8a-ab1a-f76ef999ed74
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.elemento.body
+    - field.field.node.elemento.field_ano
+    - field.field.node.elemento.field_estado
+    - field.field.node.elemento.field_imaxe_principal_elemento
+    - field.field.node.elemento.field_numero_elemento
+    - field.field.node.elemento.field_seculo
+    - field.field.node.elemento.field_tipo
+    - field.field.node.elemento.field_tipo_proteccion
+    - field.field.node.elemento.field_uso
+    - field.field.node.elemento.field_xeolocalizacion_elementos
+    - image.style.300x200
+    - node.type.elemento
+  module:
+    - image
+    - user
+id: node.elemento.teaser
+targetEntityType: node
+bundle: elemento
+mode: teaser
+content:
+  field_imaxe_principal_elemento:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: 300x200
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_ano: true
+  field_estado: true
+  field_numero_elemento: true
+  field_seculo: true
+  field_tipo: true
+  field_tipo_proteccion: true
+  field_uso: true
+  field_xeolocalizacion_elementos: true
+  langcode: true
+  links: true

@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: Século
+vid: seculo
+description: 'Número romano que indica o século de construcción do elemento'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,28 @@
+uuid: 303af08d-7227-4c17-aa6a-189440ea6285
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo
+    - node.type.elemento
+    - taxonomy.vocabulary.tipo_elemento
+id: node.elemento.field_tipo
+field_name: field_tipo
+entity_type: node
+bundle: elemento
+label: Tipo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_elemento: tipo_elemento
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

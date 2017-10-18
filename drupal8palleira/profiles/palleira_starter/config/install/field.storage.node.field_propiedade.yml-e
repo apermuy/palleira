@@ -1,0 +1,20 @@
+uuid: eeae72c0-aa58-45a7-9b33-c879762b3cd7
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_propiedade
+field_name: field_propiedade
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

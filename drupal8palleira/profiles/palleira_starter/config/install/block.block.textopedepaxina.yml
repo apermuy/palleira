@@ -1,0 +1,30 @@
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c55d4852-e00f-4564-b57d-deed446e6c45'
+  module:
+    - block_content
+    - system
+  theme:
+    - palleira
+id: textopedepaxina
+theme: palleira
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:c55d4852-e00f-4564-b57d-deed446e6c45'
+settings:
+  id: 'block_content:c55d4852-e00f-4564-b57d-deed446e6c45'
+  label: 'Texto pe de paxina'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

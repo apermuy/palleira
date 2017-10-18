@@ -1,0 +1,22 @@
+uuid: 2748183a-9f08-4348-b306-dbded625284d
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - palleira
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: palleira_help
+theme: palleira
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: c7591e0e-8296-43e5-8666-ac9c5c7b14c7
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tipo elemento'
+vid: tipo_elemento
+description: 'Define o tipo de elemento do que se trata'
+hierarchy: 0
+weight: 0

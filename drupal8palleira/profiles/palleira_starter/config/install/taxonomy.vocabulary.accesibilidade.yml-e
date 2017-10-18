@@ -1,0 +1,9 @@
+uuid: e19f242b-ea9f-4530-b60f-2fde848f9482
+langcode: es
+status: true
+dependencies: {  }
+name: Accesibilidade
+vid: accesibilidade
+description: ''
+hierarchy: 0
+weight: 0

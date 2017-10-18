@@ -1,0 +1,11 @@
+uuid: ad5e1e1c-0f55-4d79-a0cc-2192971a99c9
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_elemento
+id: taxonomy_term.tipo_elemento
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_elemento
+default_langcode: site_default
+language_alterable: false

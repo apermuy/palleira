@@ -1,0 +1,22 @@
+uuid: 65bdfe70-7192-444b-9800-4bb8bb7c8e36
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - palleira
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: palleira_breadcrumbs
+theme: palleira
+region: header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

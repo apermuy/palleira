@@ -1,0 +1,22 @@
+uuid: ad2b4fc8-dd60-4bad-8950-a34f2351bb71
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: elementos
+label: Elementos
+type: 'canonical_entities:node'
+pattern: 'elementos/[node:title]'
+selection_criteria:
+  766dfd4b-431d-4c7e-832f-e119790a74b0:
+    id: node_type
+    bundles:
+      elemento: elemento
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 766dfd4b-431d-4c7e-832f-e119790a74b0
+selection_logic: and
+weight: -5
+relationships: {  }

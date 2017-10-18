@@ -1,0 +1,23 @@
+uuid: b9bdbfbf-0e42-4351-b65a-20e71f533d81
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano
+    - node.type.elemento
+id: node.elemento.field_ano
+field_name: field_ano
+entity_type: node
+bundle: elemento
+label: Ano
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

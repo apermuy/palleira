@@ -1,0 +1,30 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.catalogo_bloques
+  module:
+    - system
+    - views
+  theme:
+    - palleira
+id: views_block__catalogo_bloques_block_1
+theme: palleira
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:catalogo_bloques-block_1'
+settings:
+  id: 'views_block:catalogo_bloques-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '*/elementos/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: Propiedade
+vid: propiedade
+description: ''
+hierarchy: 0
+weight: 0

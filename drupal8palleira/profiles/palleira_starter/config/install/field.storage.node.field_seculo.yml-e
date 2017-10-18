@@ -1,0 +1,20 @@
+uuid: 9f318165-04a3-4b22-9dd2-5fcce0ce558a
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_seculo
+field_name: field_seculo
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

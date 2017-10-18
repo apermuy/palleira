@@ -1,0 +1,15 @@
+uuid: 2ad98562-870b-4080-aabd-49bc5f32240a
+name: Palleira
+mail: admin@example.com
+slogan: 'Catálogo dixital das Palleiras de Combarro'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+mail_notification: ''

@@ -1,0 +1,27 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uso
+    - node.type.elemento
+    - taxonomy.vocabulary.uso
+id: node.elemento.field_uso
+field_name: field_uso
+entity_type: node
+bundle: elemento
+label: Uso
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      uso: uso
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

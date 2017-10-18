@@ -1,0 +1,18 @@
+uuid: 15628083-9363-4bde-a783-876aff071f6b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.elemento
+id: node.elemento.title
+field_name: title
+entity_type: node
+bundle: elemento
+label: 'Nome do elemento'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

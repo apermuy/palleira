@@ -1,0 +1,10 @@
+uuid: 2f8d15da-cb9f-4ab7-bb9d-457ecaf54005
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nzL5d024NjXIX_8TlT6uFAu973lmfkmHklJC-2i9rAE
+id: medium
+label: 'Fecha mediana por defecto'
+locked: false
+pattern: 'D, d/m/Y - H:i'

@@ -1,0 +1,9 @@
+uuid: d40a1ae7-9b25-41ba-9ee5-ee4ea1fec843
+langcode: es
+status: true
+dependencies: {  }
+name: 'Estado conservacion do elemento'
+vid: estado_conservacion_elemento
+description: 'Valoración sobre o estado no que se conserva o elemento'
+hierarchy: 0
+weight: 0

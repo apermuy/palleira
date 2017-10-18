@@ -1,0 +1,22 @@
+uuid: 728f80f8-e8e6-4221-95bf-a32dc3904e79
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - palleira
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: palleira_content
+theme: palleira
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

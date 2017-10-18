@@ -1,0 +1,11 @@
+uuid: d2521235-674d-4217-bced-1cefc904df0d
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_proteccion
+id: taxonomy_term.tipo_proteccion
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_proteccion
+default_langcode: site_default
+language_alterable: false

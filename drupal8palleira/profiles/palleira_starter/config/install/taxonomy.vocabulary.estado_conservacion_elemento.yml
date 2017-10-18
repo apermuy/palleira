@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: 'Estado conservacion do elemento'
+vid: estado_conservacion_elemento
+description: 'Valoración sobre o estado no que se conserva o elemento'
+hierarchy: 0
+weight: 0

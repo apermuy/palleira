@@ -1,0 +1,28 @@
+uuid: 5c156426-24e7-47a6-92e3-236253f2e4d3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seculo
+    - node.type.elemento
+    - taxonomy.vocabulary.seculo
+id: node.elemento.field_seculo
+field_name: field_seculo
+entity_type: node
+bundle: elemento
+label: Século
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      seculo: seculo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

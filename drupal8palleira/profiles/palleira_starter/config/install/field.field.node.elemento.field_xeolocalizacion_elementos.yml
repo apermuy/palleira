@@ -1,0 +1,20 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_xeolocalizacion_elementos
+    - node.type.elemento
+  module:
+    - geofield
+id: node.elemento.field_xeolocalizacion_elementos
+field_name: field_xeolocalizacion_elementos
+entity_type: node
+bundle: elemento
+label: Xeolocalización
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

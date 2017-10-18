@@ -1,0 +1,22 @@
+uuid: c69c47d3-0dc1-4922-aeb6-4cfa5e6b51f2
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - palleira
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: palleira_powered
+theme: palleira
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

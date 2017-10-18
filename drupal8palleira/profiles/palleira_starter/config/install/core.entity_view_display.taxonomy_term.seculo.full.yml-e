@@ -1,0 +1,23 @@
+uuid: 38eae9aa-3635-422a-a394-58aafae2ae12
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.seculo
+  module:
+    - text
+id: taxonomy_term.seculo.full
+targetEntityType: taxonomy_term
+bundle: seculo
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
