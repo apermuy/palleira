@@ -1,0 +1,23 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Palleira'
+description: 'Tema Drupal 8 para proxecto www.palleira.gal'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navegación'
+  navigation_collapsible: 'Navegación (Collapsible)'
+  header: 'Contido superior'
+  highlighted: 'Resaltado'
+  help: 'Axuda'
+  content: 'Contido'
+  sidebar_first: 'Primario'
+  sidebar_second: 'Secundario'
+  footer: 'Pe de paxina'
+  page_top: 'Contido inferior'
+  page_bottom: 'Contido inferior páxina'
+
+libraries:
+  - 'palleira/global-styling'
