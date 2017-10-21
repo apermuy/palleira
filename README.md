@@ -1,4 +1,4 @@
-# Palleira Drupal 8 Install Profile
+# Perfil de instalación Proxecto Palleira.gal Drupal 8
 
 Perfil de instalación [Drupal 8](https://www.drupal.org) para proxecto palleira.gal
 
@@ -75,7 +75,7 @@ Este perfil de instalación inclúe os seguintes vocabularios taxonómicos que a
 * Tipo de elemento
 * Uso
 
-** Antes de publicar contido de tipo elemento, vostede debe engadir como mínimo un termo en cada vocabulario, ao tratarse de campos obrigatorios. ** Dende o recurso **/admin/structure/taxonomy** pode engadir novos termos de taxonomía.
+**Antes de publicar contido de tipo elemento, vostede debe engadir como mínimo un termo en cada vocabulario, ao tratarse de campos obrigatorios.** Dende o recurso **/admin/structure/taxonomy** pode engadir novos termos de taxonomía.
 
 ## Autores
 
